@@ -1,0 +1,195 @@
+[
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$DrTdlDwlTSa5KxFSpz6Mpd$Jg3F2rgwBjhqQZOqnBbQi5oVjpvkxchT1+JG99idna8=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "francisco@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-01-29T05:36:10.682Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "viewset_users.user",
+        "pk": 2,
+        "fields": {
+            "username": "francisco",
+            "email": "fran@gmail.com",
+            "full_name": "Francisco Miguel Gomera Montero"
+        }
+    },
+    {
+        "model": "viewset_books.writer",
+        "pk": 1,
+        "fields": {
+            "name": "Gabriel Garcia Marquez"
+        }
+    },
+    {
+        "model": "viewset_books.writer",
+        "pk": 2,
+        "fields": {
+            "name": "Miguel de Cervantes"
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 1,
+        "fields": {
+            "title": "100 años de soledad",
+            "writer": 1
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 2,
+        "fields": {
+            "title": "El Quijote",
+            "writer": 2
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 3,
+        "fields": {
+            "title": "El guanajo",
+            "writer": 2
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 4,
+        "fields": {
+            "title": "Hola Mundo",
+            "writer": 2
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Adios Mundo",
+            "writer": 1
+        }
+    },
+    {
+        "model": "viewset_books.book",
+        "pk": 6,
+        "fields": {
+            "title": "El coronel no tiene quien le escriba",
+            "writer": 1
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 1,
+        "fields": {
+            "book": 1,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:24.019Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 2,
+        "fields": {
+            "book": 1,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:35.115Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 3,
+        "fields": {
+            "book": 1,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:37.135Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 4,
+        "fields": {
+            "book": 1,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:38.754Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 5,
+        "fields": {
+            "book": 1,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:40.716Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 6,
+        "fields": {
+            "book": 2,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:50.655Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 7,
+        "fields": {
+            "book": 2,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:52.365Z",
+            "return_date": null,
+            "is_active": true
+        }
+    },
+    {
+        "model": "viewset_books.loan",
+        "pk": 8,
+        "fields": {
+            "book": 3,
+            "user": 2,
+            "bibliotecary": null,
+            "loan_date": "2026-01-29T05:19:56.255Z",
+            "return_date": "2026-01-29T05:21:22.200Z",
+            "is_active": false
+        }
+    },
+    {
+        "model": "viewset_bibliotecary.bibliotecary",
+        "pk": 1,
+        "fields": {
+            "username": "Juana",
+            "email": "lovelibros@gmail.com",
+            "full_name": "JUana salta y topa"
+        }
+    }
+]
